@@ -28,8 +28,8 @@ body {
 }
 
 .card img {
-  width: 119px;
-  height: 119px;
+  width: 150px;
+  height: auto;
   border-radius: 20px;
   box-shadow: 0 0 1px 20px #f6f2ff80;
 }
