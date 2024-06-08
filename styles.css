@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffedd2;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem;
+  background-color: #fff;
+  border-radius: 40px;
+  width: 486px;
+  height: 458px;
+}
+
+.card img {
+  width: 119px;
+  height: 119px;
+  border-radius: 20px;
+  box-shadow: 0 0 1px 20px #f6f2ff80;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.card h3 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.card-text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.8px;
+  padding: 0 4rem;
+  text-align: center;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  border-radius: 35px;
+  border: none;
+  cursor: pointer;
+  padding: 1rem 3rem;
+}
+
+.btn p {
+  font-weight: 700;
+}
+
+.btn-primary {
+  background: linear-gradient(90.41deg, #fa3967 0.35%, #fa9639 98.37%);
+}
+
+.btn-secondary {
+  background-color: #ffedd2;
+}
